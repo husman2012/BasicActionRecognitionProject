@@ -545,9 +545,12 @@ class ClipHelper:
                     frame = task.frames[frame_id]
                     if self.show:
                         cv2.imshow('Demo', frame)
-                        cv2.waitKey(int(1000 / self.output_fps))
+
+                        if cv2.waitKey(1) & 0xFF == ord('q'):
+                            break
                     if self.video_writer:
-                        self.video_writer.write(frame)
+                        pass
+                        ##self.video_writer.write(frame)
 
             cur_time = time.time()
             logger.debug(
