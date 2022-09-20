@@ -1,6 +1,6 @@
-## Basic Action Recognition Project
-# Utilizes MMAction Library from Open-MM
-Link: https://github.com/open-mmlab/mmaction2
+# Basic Action Recognition Project
+## Utilizes MMAction Library from Open-MM
+Link to original repo: https://github.com/open-mmlab/mmaction2
 
 The main reason that I chose to use this library in particular is that it has a plethora of models available for testing and is also able to accept more. With the short time available for this project, I thought it was best to achieve the Minimum Viable Product, rather than completely build from scratch. This library has several models, including transformer models, which are pre-trained for action recognition. The process we use is based upon the SpatioTemporal Action Detection Webcam Demo. 
 
