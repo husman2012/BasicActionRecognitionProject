@@ -17,7 +17,7 @@ Clone the repo:
 ```
 git clone https://github.com/husman2012/BasicActionRecognitionProject.git
 ```
-The installation instructions on MMAction Library are quite thorough:
+The installation instructions on MMAction Library list the following commands:
 ```shell
 conda create -n open-mmlab python=3.8 pytorch=1.10 cudatoolkit=11.3 torchvision -c pytorch -y
 conda activate open-mmlab
@@ -29,6 +29,8 @@ git clone https://github.com/open-mmlab/mmaction2.git
 cd mmaction2
 pip3 install -e .
 ```
+Alternatively, their install.md file is helpful as well: https://github.com/open-mmlab/mmaction2/blob/master/docs/install.md
+
 ## WARNING:
 I ran into an issue getting this to work. If the .py file does not run, uninstall mmcv-full and reinstall using ```pip install mmcv-full``` This may take some time to compile.
 
