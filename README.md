@@ -37,8 +37,8 @@ I ran into an issue getting this to work. If the .py file does not run, uninstal
 If all else, fails my environment.yml file that I used to run this is also inside the repo called environment.yml. This will create a conda environment called open-mmcv which should take care of any dependency issues. 
 
 ## Running:
-This requires a webcam to work. Alternatively, a video path can be input in place of the 0 for ```cv2.VideoCapture```. I've only tested this so far for one person, but I believe it should be robust for multiple people.
-
+This requires a webcam to work. Alternatively, a video path can be input in place of the 0 for ```cv2.VideoCapture```. I've only tested this so far for one person, but I believe it should be robust for multiple people. To run the project, just navigate into the repo directory and run the following:
+```
 python run.py
-
+```
 That should be it. If there are any issues, please let me know.
